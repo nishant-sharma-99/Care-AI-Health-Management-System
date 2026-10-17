@@ -1,0 +1,27 @@
+{
+  "name": "hms-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npx serve dist --listen $PORT"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "axios": "^1.7.2",
+    "react-hook-form": "^7.51.5",
+    "@tanstack/react-query": "^5.40.0",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12",
+    "@vitejs/plugin-react": "^4.3.0",
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
+  }
+}

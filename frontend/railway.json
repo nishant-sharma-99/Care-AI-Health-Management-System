@@ -1,0 +1,4 @@
+{
+  "build": "npm install && npm run build",
+  "start": "npx serve dist --listen $PORT"
+}

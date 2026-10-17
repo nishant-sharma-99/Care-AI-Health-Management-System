@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+.vscode/
+.idea/
+node_modules/
+dist/
+*.log
+.DS_Store
+coverage/
+# Backend virtual environment
+backend/venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend generated files
+frontend/node_modules/
+frontend/dist/
+# AI development configuration
+.claude/
