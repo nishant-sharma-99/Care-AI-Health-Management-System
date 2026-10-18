@@ -51,33 +51,30 @@ Access is controlled per role, so each user only sees the modules relevant to th
 
 ## 📸 Screenshots
 
+### 🌐 Website and Landing Pages
+
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="screenshots/DashBoard.png" alt="Admin dashboard" width="100%"><br>
-      <sub><b>Dashboard</b> — at-a-glance totals for patients, appointments, pending lab work, stock, revenue and invoices.</sub>
+      <img src="screenshots/Landing%20page.png" alt="Care AI landing page" width="100%"><br>
+      <sub><b>Landing page</b> — hero section introducing the platform, with Login and Sign Up entry points.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="screenshots/Patients%20Directory.png" alt="Patient registration form" width="100%"><br>
-      <sub><b>Patient registration</b> — a unique Hospital ID and QR identity are generated automatically.</sub>
+      <img src="screenshots/Landing%20page%202.png" alt="Features section" width="100%"><br>
+      <sub><b>Features overview</b> — appointments, billing, pharmacy, patient management, reports and role-based access.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/EHR.png" alt="EHR clinical timeline" width="100%"><br>
-      <sub><b>Electronic Health Record</b> — append-only timeline combining a verified lab report and a rule-based triage review.</sub>
+      <img src="screenshots/About%20Us.png" alt="About Us section" width="100%"><br>
+      <sub><b>About Us</b> — mission, vision and team section of the public website.</sub>
     </td>
   </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="screenshots/Pharmacy.png" alt="Pharmacy inventory" width="100%"><br>
-      <sub><b>Pharmacy</b> — drug inventory with quantity, price and expiry tracking.</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="screenshots/Reports.png" alt="Reports page" width="100%"><br>
-      <sub><b>Reports</b> — hospital summary, appointment schedule and pharmacy stock reports.</sub>
-    </td>
-  </tr>
+</table>
+
+### 🔑 Login and Registration
+
+<table>
   <tr>
     <td width="50%" align="center">
       <img src="screenshots/Login%20Page.png" alt="Login page" width="60%"><br>
@@ -86,6 +83,110 @@ Access is controlled per role, so each user only sees the modules relevant to th
     <td width="50%" align="center">
       <img src="screenshots/Register%20Page.png" alt="Registration page" width="60%"><br>
       <sub><b>Registration</b> — account creation with role selection.</sub>
+    </td>
+  </tr>
+</table>
+
+### 📊 Dashboard and Patient Management
+
+<table>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="screenshots/DashBoard.png" alt="Admin dashboard" width="100%"><br>
+      <sub><b>Dashboard</b> — at-a-glance totals for patients, appointments, pending lab work, stock, revenue and invoices.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="screenshots/Patients%20Directory.png" alt="Patient registration form" width="100%"><br>
+      <sub><b>Patient registration</b> — a unique Hospital ID and QR identity are generated automatically.</sub>
+    </td>
+  </tr>
+</table>
+
+### 🔳 QR-Based Patient Identity
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/QR%20CODE.png" alt="Patient directory with QR codes" width="100%"><br>
+      <sub><b>Patient directory</b> — Hospital ID, QR code, contact details and quick links to the EHR and digital ID.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/Sample%20QR.png" alt="Digital patient ID card" width="60%"><br>
+      <sub><b>Digital ID card</b> — the QR encodes only the Hospital ID; card can be printed or saved.</sub>
+    </td>
+  </tr>
+</table>
+
+### 🩺 Persona-Based Triage and Appointments
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/Persona.png" alt="Persona triage" width="100%"><br>
+      <sub><b>Persona triage</b> — symptom and vitals entry with patient search, feeding a rule-based priority queue.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/Patient%20Appointment.png" alt="Appointments page" width="100%"><br>
+      <sub><b>Appointments</b> — add doctors, book appointments and update their status.</sub>
+    </td>
+  </tr>
+</table>
+
+### 📋 Electronic Health Records
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/EHR.png" alt="EHR patient chart" width="100%"><br>
+      <sub><b>Patient chart</b> — medical profile and append-only clinical observation entry.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/Patient%20History.png" alt="Clinical records timeline" width="100%"><br>
+      <sub><b>Clinical timeline</b> — append-only history combining a verified lab report and a rule-based triage review.</sub>
+    </td>
+  </tr>
+</table>
+
+### 🧪 Laboratory Management
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/Create%20Lab%20Order.png" alt="Create lab order" width="100%"><br>
+      <sub><b>Create lab order</b> — patient selection, test catalogue and NORMAL / URGENT priority.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/Laboratory.png" alt="Pending lab queue" width="100%"><br>
+      <sub><b>Pending queue</b> — priority-sorted work queue with sample IDs and processing status.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="screenshots/Lab%20Reports.png" alt="Lab reports repository" width="70%"><br>
+      <sub><b>Lab reports</b> — draft, awaiting-verification and verified reports with doctor verification.</sub>
+    </td>
+  </tr>
+</table>
+
+### 💊 Pharmacy, Billing and Reports
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="screenshots/Pharmacy.png" alt="Pharmacy inventory" width="100%"><br>
+      <sub><b>Pharmacy</b> — drug inventory with quantity, price and expiry tracking.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="screenshots/Billing.png" alt="Billing page" width="80%"><br>
+      <sub><b>Billing</b> — invoice creation and invoice list.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="screenshots/Reports.png" alt="Reports page" width="70%"><br>
+      <sub><b>Reports</b> — hospital summary, appointment schedule and pharmacy stock reports.</sub>
     </td>
   </tr>
 </table>
